@@ -1,11 +1,17 @@
 #!/bin/bash
-# needs to be made executable "chmod -x radio" then to execute "./radio"
-# or
-# "sudo cp radio /usr/local/bin/radio" then to execure "radio"
+# scp radio susan@192.168.0.106:/usr/local/bin/radio
+# scp radio susan@192.168.0.106:~/radio
+# ssh susan@192.168.0.106
+# chmod -x radio
+# sudo cp radio /usr/local/bin/radio
 
 
-x[0]="http://13873.live.streamtheworld.com:3690/FM702_SC"
-x[1]="http://18973.live.streamtheworld.com:3690/CAPE_TALK_SC"
+
+
+http://19113.live.streamtheworld.com:3690/CAPE_TALK_SC
+
+x[0]="http://19373.live.streamtheworld.com:3690/FM702_SC"
+x[1]="http://19113.live.streamtheworld.com:3690/CAPE_TALK_SC"
 x[2]="http://www.listenlive.eu/bbcradio1.m3u"
 x[3]="http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_berkshire/format/pls.pls"
 x[4]="http://www.listenlive.eu/bbcradio4.m3u"
