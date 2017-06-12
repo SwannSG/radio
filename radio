@@ -5,11 +5,6 @@
 # chmod -x radio
 # sudo cp radio /usr/local/bin/radio
 
-
-
-
-http://19113.live.streamtheworld.com:3690/CAPE_TALK_SC
-
 x[0]="http://19373.live.streamtheworld.com:3690/FM702_SC"
 x[1]="http://19113.live.streamtheworld.com:3690/CAPE_TALK_SC"
 x[2]="http://www.listenlive.eu/bbcradio1.m3u"
